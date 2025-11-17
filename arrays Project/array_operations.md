@@ -41,8 +41,8 @@ int main() {
    cin >> c;
 
    if (c == 1) {
-      for (int i=0;i<SIZE-1;i++) {
-         for (int j=i+1;j<SIZE;j++) {
+      for (int i=0; i<SIZE-1; i++) {
+         for (int j=i+1; j<SIZE; j++) {
             if (arr[i] > arr[j]) {
                int t = arr[i];
                arr[i] = arr[j];
@@ -51,14 +51,14 @@ int main() {
          }
       }
       cout << "\nSorted (low to high): ";
-      for (int i=0;i<SIZE;i++) cout << arr[i] << " ";
+      for (int i=0; i<SIZE; i++) cout << arr[i] << " ";
       cout << endl;
    }
 
    else if (c == 2) {
-      for (int i=0;i<SIZE-1;i++){
-         for (int j=i+1;j<SIZE;j++){
-            if (arr[i] < arr[j]){
+      for (int i=0; i<SIZE-1; i++) {
+         for (int j=i+1; j<SIZE; j++) {
+            if (arr[i] < arr[j]) {
                int tmp = arr[i];
                arr[i] = arr[j];
                arr[j] = tmp;
@@ -66,13 +66,13 @@ int main() {
          }
       }
       cout << "\nSorted (high to low): ";
-      for (int i=0;i<SIZE;i++) cout << arr[i] << " ";
+      for (int i=0; i<SIZE; i++) cout << arr[i] << " ";
       cout << endl;
    }
 
    else if (c == 3) {
       int maxVal = arr[0];
-      for (int i=1;i<SIZE;i++){
+      for (int i=1; i<SIZE; i++) {
          if (arr[i] > maxVal)
             maxVal = arr[i];
       }
