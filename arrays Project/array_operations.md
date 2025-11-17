@@ -3,9 +3,6 @@
 // Date: 11/2/2025
 // Assignment: Non-Duplicated Integer Array Operations
 
-
-cpp...
-
 #include <iostream>
 #include <array>
 using namespace std;
