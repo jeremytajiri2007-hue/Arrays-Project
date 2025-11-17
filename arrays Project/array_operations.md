@@ -1,6 +1,6 @@
 // Name: Jeremy Tajiri
 // Course: CISC 192 - C++ Programming
-// Date: 11/2/2025
+// Date: 11/02/2025
 // Assignment: Non-Duplicated Integer Array Operations
 
 #include <iostream>
