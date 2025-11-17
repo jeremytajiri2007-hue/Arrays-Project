@@ -1,5 +1,4 @@
 cpp
-
 // Name: Jeremy Tajiri
 // Course: CISC 192 - C++ Programming
 // Date: 11/2/2025
@@ -87,5 +86,4 @@ int main() {
 
    return 0;
 }
-
 cpp
